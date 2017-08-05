@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<!-- Required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.min.css">
+	</head>
+	<body ng-app="jellybeans">
+		<div class="container-fluid">
+			<div id="super-row" class="row">
+				<div id="mason" class="col-12 col-lg-6 py-5 text-center">
+					<img ng-show="currentForm > -1" src="images/mason.png">
+				</div>
+				<div id="guesses" class="col-12 col-lg-6">
+					<jellybeans></jellybeans>
+				</div>
+			</div><!-- .row -->
+		</div>
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+		<script src="js/main.min.js"></script>
+	</body>
+</html>

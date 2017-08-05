@@ -1,0 +1,20 @@
+#super-row {
+	height:100vh;
+}
+
+#mason {
+	background-color:dodgerblue;
+}
+
+#mason > img {
+	width:auto;
+	height:60vh;
+}
+
+#guesses {}
+
+@media screen and (min-height:800px) {
+	#guesses {
+		min-height:250px;
+	}
+}

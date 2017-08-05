@@ -1,0 +1,8 @@
+<div id="guess-container" >
+	<h3>How many <span id="item"></span> fit in this mason jar?</h3>
+	<form ng-repeat="guess in guesses" ng-submit="addGuess(guess.name,guess.val)" ng-show="$index === currentForm">
+		<label><strong>{{guess.name}}</strong></label>
+		<input ng-model="guess.val" type="number">
+		<input type="submit" value="Hello">
+	</form>
+</div><!-- #guess-container -->
