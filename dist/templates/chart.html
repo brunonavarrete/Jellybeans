@@ -1,0 +1,9 @@
+<canvas id="myChart"></canvas>
+<div id="buttons">
+	<button 
+		ng-repeat="(key,result) in results[0]" 
+		ng-hide="key === 'email' || key === 'country'"
+		ng-click="generateChart(key);">
+		{{key}}
+	</button>
+</div>
